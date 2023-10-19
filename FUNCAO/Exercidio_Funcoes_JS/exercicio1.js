@@ -1,3 +1,4 @@
+//Meu Exercício 1
 function operacoes(x, y) {
     soma = x + y
     sub = x - y
@@ -11,4 +12,11 @@ function operacoes(x, y) {
     `)
 }
 
-console.log(operacoes(10, 20))
+operacoes(10, 20)
+
+//Resposta Professor
+function calcularOperacoes (operador1, operador2) {
+    console.log(operador1+operador2, operador1-operador2, operador1*operador2, operador1/operador2);
+}
+
+calcularOperacoes(10, 20)
